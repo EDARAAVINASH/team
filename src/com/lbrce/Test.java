@@ -7,7 +7,7 @@ class Test {
     public static void main(String[] args) throws FileNotFoundException {
         // Load file
     	
-        File file = new File("C:\\Users\\karth\\OneDrive\\Desktop\\avinash\\file.txt.txt");
+        File file = new File("C:\\avinash\\file.txt");
         Scanner scanner = new Scanner(file);
 
         // Read numbers and operation from file
