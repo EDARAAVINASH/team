@@ -19,17 +19,17 @@ class Test {
         // Perform operation using switch
         switch (operation) {
             case '+':
-                System.out.println("Sum: " + (num1 + num2));
+                System.out.println("Sum is: " + (num1 + num2));
                 break;
             case '-':
-                System.out.println("Difference: " + (num1 - num2));
+                System.out.println("Difference is: " + (num1 - num2));
                 break;
             case '*':
-                System.out.println("Product: " + (num1 * num2));
+                System.out.println("Product is: " + (num1 * num2));
                 break;
             case '/':
                 if (num2 != 0) {
-                    System.out.println("Quotient: " + (num1 / num2));
+                    System.out.println("Quotient is: " + (num1 / num2));
                 } else {
                     System.out.println("Error: Division by zero is not allowed.");
                 }
